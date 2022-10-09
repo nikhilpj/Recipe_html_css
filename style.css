@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 20px;
+   
+
+}
+.nav_item{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+.icons{
+    margin-left: 350px;
+    display: flex;
+
+}
+.icon_items{
+    padding: 20px;
+    
+}
+.drop{
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    z-index: 1;
+    padding: 10px;
+    min-width: 100px;
+}
+.nav_item:hover .drop{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.drop_items{
+    padding: 15px;
+}
+.main{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    
+
+}
+.main_img{
+    padding: 10px;
+}
+.main_right{
+    text-align: center;
+    width: 30%;
+    margin: 50px;
+    padding-top: 10px;
+    background-color: ghostwhite;
+}
+
+.grid{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: large;
+}
+.grid_item{
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+.h5 h5{
+    color: #696969;
+}
+.h5{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.h2{
+    margin-top: 20px;
+    margin-left:30px ;
+}
+.h2 h4{
+    color: #696969;
+    font-size: medium;
+}
+.dinner{
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+.dinner_title .material-symbols-outlined{
+    color: red;
+}
+.dinner_title{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 60px;
+}
+.dinner_items{
+    padding: 30px;
+}
+.footer-main{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 383px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.footer-left{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+.footer-items{
+    padding: 20px;
+
+}
+.footer-items button{
+    background-color: #ffffff;
+    border:3px solid red;
+    height: 46px;
+    width: 296px;
+    font-weight: bold;
+}
+.footer-right{
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.footer{
+    height: 20px;
+    text-align: center;
+    color: red;
+}
